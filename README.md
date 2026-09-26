@@ -6,6 +6,8 @@ An M5CoreS3 learns three motion states from its IMU and runs the classifier loca
 
 The pipeline is deliberately small and easy to inspect: collect USB data, train on a laptop, export a tiny decision tree, then run the same feature pipeline on the M5. No Wi-Fi, microphone, cloud API, or extra hardware is required.
 
+![M5 TinyML motion classifier pipeline](docs/pipeline.svg)
+
 ## Result
 
 - **84.9% held-out window accuracy** on a later recording session
